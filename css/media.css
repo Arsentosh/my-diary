@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* flex-direction: row; */
+  }
+
+  .logo {
+    font-weight: 900;
+    font-size: 28px;
+    color: #2a2a2a;
+    margin-right: 320px;
+  }
+
+  .site-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .for-what-sec {
+    font-size: 36px;
+    display: flex;
+
+    background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149159772.jpg?w=1060&t=st=1687079456~exp=1687080056~hmac=c6e1dfd9c251859258cd99cf37fefcede43875c0ec6fce27fa5a9ca7bfe788a7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1540px;
+  }
+
+  .for-what {
+    margin: 120px;
+  }
+
+  .imp-zone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .routine {
+    border: solid 1px #00ff00;
+    border-radius: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+}

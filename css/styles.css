@@ -1,0 +1,105 @@
+:root {
+  --lg-gradient: linear-gradient(
+    90deg,
+    rgba(0, 213, 255, 0.4) 0%,
+    rgba(43, 60, 212, 0.4) 100%
+  );
+}
+
+body {
+  font-size: 20px;
+  font-family: "Roboto";
+  padding: 16px;
+  color: #2a2a2a;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 115, 0.2) 20%,
+    rgba(11, 211, 246, 0.2) 80%
+  );
+  max-width: 100%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: tomato;
+}
+
+.list {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  border: solid 4px #2cc0ff;
+  border-radius: 20px;
+  background: var(--lg-gradient);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.logo.site-nav-link {
+  font-weight: 900;
+  font-size: 28px;
+  color: #2a2a2a;
+}
+
+.logo.site-nav-link:hover {
+  color: tomato;
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+}
+
+.site-nav-link {
+  color: #4a4a4a;
+}
+
+.for-what-sec {
+  display: flex;
+  color: rgb(255, 255, 255);
+  background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149159772.jpg?w=1060&t=st=1687079456~exp=1687080056~hmac=c6e1dfd9c251859258cd99cf37fefcede43875c0ec6fce27fa5a9ca7bfe788a7);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1540px;
+}
+
+.for-what {
+  margin: 40px;
+}
+
+.imp-zone {
+  background: #ff00002c;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.3) 20%,
+    rgba(255, 102, 0, 0.3) 80%
+  );
+  border: solid 2px #ff0000;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.routine-days-par {
+  font-weight: 700;
+}
+
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 0, 0.3) 20%,
+    rgba(0, 255, 119, 0.3) 80%
+  );
+  border: solid 4px #00ff00;
+  border-radius: 20px;
+  padding: 8px;
+}
