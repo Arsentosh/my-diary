@@ -11,11 +11,11 @@ body {
   font-family: "Roboto";
   padding: 16px;
   color: #2a2a2a;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(0, 255, 115, 0.2) 20%,
     rgba(11, 211, 246, 0.2) 80%
-  );
+  ); */
   max-width: 100%;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .logo.site-nav-link {
   font-weight: 900;
-  font-size: 28px;
+  font-size: 40px;
   color: #2a2a2a;
 }
 
@@ -89,7 +89,7 @@ body {
   padding: 8px;
 }
 
-.routine-days-par {
+.routine-day-par {
   font-weight: 700;
 }
 
