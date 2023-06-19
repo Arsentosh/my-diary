@@ -24,7 +24,7 @@ body {
 }
 
 .link:hover {
-  color: tomato;
+  color: orange;
 }
 
 .list {
@@ -50,7 +50,7 @@ body {
 }
 
 .logo.site-nav-link:hover {
-  color: tomato;
+  color: orange;
 }
 
 .site-nav {
