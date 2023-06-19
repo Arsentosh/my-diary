@@ -53,14 +53,14 @@
 
   .routine-days-list {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
+    gap: 20px;
   }
 
   .routine-day-item {
-    width: calc((100% - 56px) / 2);
+    width: calc((100% - 56px) / 3);
   }
 
   .sport-title {
@@ -71,14 +71,29 @@
     justify-content: center;
   }
 
+  iframe {
+    width: 560px;
+    height: 352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+  }
+
   .training-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 20px;
+    align-items: baseline;
+    gap: 20px;
   }
 
   .training-item {
     width: calc((100% - 60px) / 2);
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
   }
 }

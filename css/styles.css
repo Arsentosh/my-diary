@@ -46,6 +46,7 @@ body {
   font-weight: 900;
   font-size: 40px;
   color: #2a2a2a;
+  width: 100px;
 }
 
 .logo.site-nav-link:hover {
@@ -89,8 +90,22 @@ body {
   padding: 8px;
 }
 
+iframe {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
 .routine-day-par {
   font-weight: 700;
+  color: #170c64;
+}
+
+.training-day {
+  font-weight: 700;
+  color: #170c64;
 }
 
 .footer {
@@ -102,4 +117,5 @@ body {
   border: solid 4px #00ff00;
   border-radius: 20px;
   padding: 8px;
+  margin-top: 16px;
 }
