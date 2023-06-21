@@ -74,8 +74,12 @@ body {
   max-width: 1540px;
 }
 
+.hero-container {
+  margin: 60px;
+}
+
 .for-what {
-  margin: 40px;
+  font-size: 28px;
 }
 
 .imp-zone {
@@ -103,9 +107,14 @@ iframe {
   color: #170c64;
 }
 
+.exp-par {
+  font-size: 18px;
+  color: #5c5c5c;
+}
+
 .training-day {
   font-weight: 700;
-  color: #170c64;
+  color: #0083a8;
 }
 
 .footer {

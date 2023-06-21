@@ -10,7 +10,7 @@
     font-weight: 900;
     font-size: 28px;
     color: #2a2a2a;
-    margin-right: 320px;
+    margin-right: 72px;
   }
 
   .site-nav {
@@ -19,6 +19,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin-left: 36px;
   }
 
   .for-what-sec {
@@ -34,8 +35,12 @@
     max-width: 1540px;
   }
 
-  .for-what {
+  .hero-container {
     margin: 120px;
+  }
+
+  .for-what {
+    font-size: 52px;
   }
 
   .imp-zone {
@@ -100,8 +105,28 @@
     width: calc((100% - 60px) / 2);
   }
 
+  /* .scretching-container {
+    border: solid 4px #00ff00;
+    border-radius: 20px;
+  } */
+
+  .scretching-heading {
+    display: flex;
+    justify-content: center;
+  }
+
   .footer {
     display: flex;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .hero-container {
+    margin: 180px;
+  }
+
+  .for-what {
+    font-size: 76px;
   }
 }
