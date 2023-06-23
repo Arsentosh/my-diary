@@ -95,6 +95,7 @@
 
   .training-list {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
@@ -102,6 +103,8 @@
   }
 
   .training-item {
+    display: flex;
+    /* justify-content: center; */
     width: calc((100% - 60px) / 2);
   }
 
@@ -111,6 +114,11 @@
   } */
 
   .scretching-heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .instructions {
     display: flex;
     justify-content: center;
   }
