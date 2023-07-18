@@ -29,6 +29,8 @@ body {
 }
 
 .list {
+  display: flex;
+  flex-direction: column-reverse;
   list-style: none;
 }
 
