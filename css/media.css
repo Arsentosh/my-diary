@@ -49,7 +49,7 @@
   }
 
   .routine {
-    border: solid 1px #00ff00;
+    border: solid 2px #00ff00;
     border-radius: 20px;
     padding: 8px;
     display: flex;
@@ -69,7 +69,7 @@
   }
 
   .sport-title {
-    border: solid 1px #00ff00;
+    border: solid 2px #00ff00;
     border-radius: 20px;
     padding: 8px;
     display: flex;
