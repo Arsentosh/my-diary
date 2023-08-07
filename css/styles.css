@@ -9,7 +9,7 @@
 body {
   font-size: 20px;
   font-family: "Roboto";
-  padding: 16px;
+  /* padding: 16px; */
   color: #2a2a2a;
   /* background: linear-gradient(
     180deg,
@@ -37,12 +37,12 @@ body {
 .header {
   display: flex;
   justify-content: start;
-  flex-direction: column;
-  border: solid 4px #2cc0ff;
-  border-radius: 20px;
+  width: 100%;
+  /* border: solid 4px #2cc0ff; */
+  /* border-radius: 20px; */
   background: var(--lg-gradient);
   padding: 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .logo.site-nav-link {
@@ -93,8 +93,9 @@ body {
     rgba(255, 0, 0, 0.3) 20%,
     rgba(255, 102, 0, 0.3) 80%
   );
-  border: solid 2px #ff0000;
+  /* border: solid 2px #ff0000; */
   border-radius: 20px;
+  width: 100%;
   padding: 8px;
 }
 
@@ -106,6 +107,10 @@ iframe {
   margin-bottom: 16px;
 }
 
+.routine-sec {
+  padding: 16px;
+}
+
 .routine-day-par {
   font-weight: 700;
   color: #0083a8;
@@ -114,6 +119,14 @@ iframe {
 .exp-par {
   font-size: 18px;
   color: #5c5c5c;
+}
+
+.sport-sec {
+  padding: 16px;
+}
+
+.work-sec {
+  padding: 16px;
 }
 
 .training-day {
@@ -127,9 +140,9 @@ iframe {
     rgba(0, 255, 0, 0.3) 20%,
     rgba(0, 255, 119, 0.3) 80%
   );
-  border: solid 4px #00ff00;
-  border-radius: 20px;
-  padding: 8px;
+  /* border: solid 4px #00ff00;
+  border-radius: 20px; */
+  padding: 16px;
   margin-top: 16px;
 }
 
