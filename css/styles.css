@@ -129,9 +129,34 @@ iframe {
   padding: 16px;
 }
 
+.training-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .training-day {
   font-weight: 700;
+  width: 200px;
+  margin: 0 auto;
   color: #0083a8;
+}
+
+.training-item {
+  flex-direction: column;
+}
+
+.decision {
+  margin: 0 auto;
+  width: 353px;
+}
+
+.second-sport-prgme {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer {
