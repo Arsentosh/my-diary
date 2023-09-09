@@ -1,7 +1,7 @@
 :root {
   --lg-gradient: linear-gradient(
     90deg,
-    rgba(0, 213, 255, 0.4) 0%,
+    rgba(0, 213, 255, 0.808) 40%,
     rgba(43, 60, 212, 0.4) 100%
   );
 }
@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: start;
   width: 100%;
+  /* position: fixed; */
   /* border: solid 4px #2cc0ff; */
   /* border-radius: 20px; */
   background: var(--lg-gradient);
@@ -68,15 +69,23 @@ body {
   color: #4a4a4a;
 }
 
+/* .for-what {
+  background-color: #2a2a2a73;
+} */
+
 .for-what-sec {
   display: flex;
   color: rgb(255, 255, 255);
-  background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149159772.jpg?w=1060&t=st=1687079456~exp=1687080056~hmac=c6e1dfd9c251859258cd99cf37fefcede43875c0ec6fce27fa5a9ca7bfe788a7);
+  background-image: url(https://fastly.picsum.photos/id/1018/1068/706.jpg?hmac=21Yw8zkL0HReItni-KC1OIs_Ook7clz8RLPJQNBQTT4);
+
+  /* background-image: url(https://unsplash.it/1068/706?grey); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1540px;
+  height: 100%;
 }
+/* 1068/706 */
 
 .hero-container {
   margin: 60px;
