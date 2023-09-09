@@ -25,12 +25,13 @@
   .for-what-sec {
     font-size: 36px;
     display: flex;
-    /* background-image: url(https://unsplash.it/1068/706?grey); */
+    /* background-image: url(https://picsum.photos/1068/706?greyscale); */
 
     /* background-image: url(https://img.freepik.com/free-vector/gradient-mountain-landscape_23-2149159772.jpg?w=1060&t=st=1687079456~exp=1687080056~hmac=c6e1dfd9c251859258cd99cf37fefcede43875c0ec6fce27fa5a9ca7bfe788a7); */
     /* background-image: url(https://img.freepik.com/free-vector/hand-drawn-flat-design-mountain-landscape_23-2149159384.jpg?w=1060&t=st=1687080599~exp=1687081199~hmac=039fe75291a812212bd9cf694b00f507c91de526fda0467aa76a4aba407aa62b); */
-    /* background-image: url(https://fastly.picsum.photos/id/55/1068/706.jpg?hmac=HUgl0qLP12hBOZD-9gUM3d0FcdNMYXDpIND8nsSkWfU); */
-    background-image: url(https://fastly.picsum.photos/id/1018/1068/706.jpg?hmac=21Yw8zkL0HReItni-KC1OIs_Ook7clz8RLPJQNBQTT4);
+    background-image: url(https://fastly.picsum.photos/id/55/1068/706.jpg?hmac=HUgl0qLP12hBOZD-9gUM3d0FcdNMYXDpIND8nsSkWfU);
+    /* background-image: url(https://fastly.picsum.photos/id/1018/1068/706.jpg?hmac=21Yw8zkL0HReItni-KC1OIs_Ook7clz8RLPJQNBQTT4); */
+    /* background-image: url(https://fastly.picsum.photos/id/1018/1068/706.jpg?hmac=21Yw8zkL0HReItni-KC1OIs_Ook7clz8RLPJQNBQTT4); */
 
     background-position: center;
     background-repeat: no-repeat;
